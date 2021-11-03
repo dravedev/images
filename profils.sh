@@ -1,7 +1,9 @@
+IFS=$'\n'
+FILES=`find ./profils/ -type f`
 montage \
-	profils/*.jpeg profils/*.jpg \
+	 $FILES \
 	-geometry 200x200+5+5 \
-	-tile 6 \
+	-tile 7 \
 	collages/profils.jpeg
 
 mogrify -resize 1200 collages/profils.jpeg
