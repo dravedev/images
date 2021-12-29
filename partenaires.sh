@@ -2,7 +2,7 @@ montage \
 	partenaires/*.png \
 	partenaires/*.jpeg \
 	partenaires/*.svg \
-	-geometry 400x400+50+50 \
+	-geometry 1024x1024+50+50 \
 	-tile 5 \
 	collages/partenaires.jpeg
 

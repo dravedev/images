@@ -2,7 +2,7 @@ IFS=$'\n'
 FILES=`find ./profils/ -type f`
 montage \
 	 $FILES \
-	-geometry 200x200+5+5 \
+	-geometry 1024x1024+5+5 \
 	-tile 7 \
 	collages/profils.jpeg
 
